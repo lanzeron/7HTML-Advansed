@@ -1,0 +1,108 @@
+* 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+#page {
+	max-width: 1240px;
+    margin: 105px auto;
+    background-color: grey;
+    border: 1px solid black;
+
+
+}
+header {
+
+}
+}
+
+table {
+	width: 100%;
+	font-size: 40px;
+	max-width: 2300px;
+	padding-left: 120px;
+}
+td {
+	border-right: 1px solid blue;
+	text-align: left;
+    padding: 40px;
+    width: 80px;
+}
+td:last-child {
+	border: none;
+}
+th {
+	background-color: #DCDCDC;
+	text-align: left;
+    padding: 40px;
+    border-right: 1px solid blue;
+}
+th:last-child {
+	border: none;
+}
+.footer {
+	font-size: 40px;
+	padding-left: 120px;
+}
+.img {
+	border: 1px solid black;
+}
+.wraper{
+	
+	padding: 20px 20px 60px 20px;
+}
+.colum1 {
+	max-width: 50%;
+	font-size: 40px;
+	padding: 20px 120px 60px 120px;
+	/*border: 1px solid black;*/ 
+	float: left;
+	font-family: monospace;
+	
+
+}
+.colum2 {
+	max-width: 50%
+	/*border: 1px solid black;*/
+	float: right;
+}
+header {
+	font-size: 80px;
+	color: #6495ED;
+	padding: 120px 0px 120px 120px;
+	/*border: 1px solid black;*/
+}
+.list {
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+div.inner {
+	padding-left: 250px;
+}
+
+.line {
+	padding-left: 120px;
+	font-size: 40px;
+}
+
+.costumers {
+	padding-left: 400px;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+.clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; } .clearfix { display: inline-block; } /* start commented backslash hack \*/ * html .clearfix { height: 1%; } .clearfix { display: block; } /* close commented backslash hack */
